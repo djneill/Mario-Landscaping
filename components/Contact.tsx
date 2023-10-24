@@ -13,7 +13,6 @@ const Contact = () => {
                     className="rounded-full w-40 h-40 mx-auto"
                 />
             </div>
-
             <div className="w-1/2 p-4">
                 <h2 className="text-2xl font-bold text-center text-shadow">Contact Us</h2>
                 <p className="text-base font-bold mx-auto text-white ">Call us today <a className='text-blue-600' href='tel:2545554321'>2545554321</a> or send a message below.</p>

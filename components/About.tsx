@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className="w-1/2 p-4">
                 <h2 className="text-2xl font-bold mx-auto mb-4 text-center text-black">About Us</h2>
-                <p className="text-base font-bold mx-auto text-black font-normal">Proudly servicing the Troy, Temple, and Belton area since 2019.</p>
+                <p className="text-base font-bold mx-auto text-black">Proudly servicing the Troy, Temple, and Belton area since 2019.</p>
             </div>
         </div>
     )

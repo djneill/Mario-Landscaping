@@ -30,16 +30,16 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a href='tel:2545552123' className="p-2 ">
-                        <BsFillPhoneFill className='text-[#ed2476] text-2xl' />
+                        <BsFillPhoneFill className='text-[#ed2476] md:lg:text-2xl' />
                     </a>
                     <a href='' className="p-2 ">
-                        <BsFacebook className="text-[#3b5998] text-2xl" />
+                        <BsFacebook className="text-[#3b5998] md:lg:text-2xl" />
                     </a>
                     <a href='' className='p-2'>
-                        <PiInstagramLogoBold className="text-[#c13584] text-2xl" />
+                        <PiInstagramLogoBold className="text-[#c13584] md:lg:text-2xl" />
                     </a>
                     <a href='' className='p-2'>
-                        <FaTwitter className='text-[#00acee] text-2xl' />
+                        <FaTwitter className='text-[#00acee] md:lg:text-2xl' />
                     </a>
                 </div>
             </div>
