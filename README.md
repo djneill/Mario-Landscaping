@@ -32,6 +32,8 @@
 
 Welcome to the repository for the Mario Landscaping website, a project developed for a freelance client. This README provides an overview of the technologies and tools used in the project.
 
+Take a look at it here 👉 https://mario-landscaping.vercel.app/
+
 ## Project Description
 
 Mario Landscaping is a website designed to showcase the landscaping services provided by our client's business. It includes information about the company, services offered, contact details, and a contact form for potential customers to get in touch.
