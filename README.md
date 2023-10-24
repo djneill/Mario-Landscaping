@@ -1,4 +1,34 @@
 # Mario Landscaping - Freelance Client Website
+<table bordercolor="#66b2b2">
+
+<tr>
+<td width="50%" valign="top">
+    <img src="public/one.png" width="100%" alt="" />
+</td>
+
+<td width="50%" align="center" valign="top">
+     <img src="public/two.png" width="100%" alt="" />
+</td>
+        </tr>
+<tr>
+<td width="50%" valign="top">
+    <img src="public/three.png" width="100%" alt="" />
+ </td>
+
+<td width="50%" valign="top">
+   <img src="public/four.png" width="100%" alt="" />
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+     <img src="public/five.png" width="100%" alt="" />
+</td>
+
+<td width="50%" valign="top">
+</td>
+</tr>
+    </table>
 
 Welcome to the repository for the Mario Landscaping website, a project developed for a freelance client. This README provides an overview of the technologies and tools used in the project.
 
@@ -20,7 +50,7 @@ The project was built using the following technologies and tools:
 
 - **GitHub**: Version control and code collaboration platform for managing the project's source code.
 
-- **Netlify**: Deployment platform for hosting the website.
+- **Vercel**: Deployment platform for hosting the website.
 
 - **Google Fonts**: Used for incorporating custom fonts in the project.
 
