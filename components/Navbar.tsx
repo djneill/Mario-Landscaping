@@ -2,7 +2,7 @@ import { BsFacebook } from 'react-icons/bs'
 import { PiInstagramLogoBold } from 'react-icons/pi'
 import { FaRedditAlien } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
-import { BsFillPhoneFill } from 'react-icons/bs'
+import { AiFillPhone } from 'react-icons/ai'
 
 const Navbar = () => {
     return (
@@ -29,18 +29,20 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href='tel:2545552123' className="p-2 ">
-                        <BsFillPhoneFill className='text-[#ed2476] md:lg:text-2xl' />
-                    </a>
-                    <a href='' className="p-2 ">
-                        <BsFacebook className="text-[#3b5998] md:lg:text-2xl" />
-                    </a>
-                    <a href='' className='p-2'>
-                        <PiInstagramLogoBold className="text-[#c13584] md:lg:text-2xl" />
-                    </a>
-                    <a href='' className='p-2'>
-                        <FaTwitter className='text-[#00acee] md:lg:text-2xl' />
-                    </a>
+                    <div className="grid grid-cols-2 md:grid-cols-4 md:gap-2">
+                        <a href='tel:2545552123' className="p-2 ">
+                            <AiFillPhone className='text-[#ed2476] md:lg:text-2xl' />
+                        </a>
+                        <a href='' className="p-2 ">
+                            <BsFacebook className="text-[#3b5998] md:lg:text-2xl" />
+                        </a>
+                        <a href='' className='p-2'>
+                            <PiInstagramLogoBold className="text-[#c13584] md:lg:text-2xl" />
+                        </a>
+                        <a href='' className='p-2'>
+                            <FaTwitter className='text-[#00acee] md:lg:text-2xl' />
+                        </a>
+                    </div>
                 </div>
             </div>
         </>

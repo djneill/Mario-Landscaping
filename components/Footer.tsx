@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react"
 import { Inter } from "next/font/google"
 import logo from "../public/mowerLogoK.png"
 import Image from "next/image"
-import { BsFillPhoneFill, BsFacebook } from "react-icons/bs"
+import { BsFacebook } from "react-icons/bs"
+import { AiFillPhone } from 'react-icons/ai'
 import { PiInstagramLogoBold } from "react-icons/pi"
 import { FaTwitter } from "react-icons/fa"
 
@@ -16,29 +17,29 @@ const Footer = () => {
     }, [])
 
     return (
-        <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+        <footer className="footer items-center px-4 bg-neutral text-neutral-content">
             <aside className="items-center grid-flow-col">
                 <Image
                     src={logo}
                     alt="Your Image"
-                    className="fill-current w-36 h-36"
+                    className="fill-current w-16 h-16 md:w-36 md:h-36"
                 />
 
                 <p>
                     Copyright © <span id="displayYear">{currentYear}</span> - All right reserved
                 </p>
             </aside>
-            <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                <a href='tel:2545552123' className="p-2 ">
-                    <BsFillPhoneFill className='text-[#ed2476] text-2xl' />
+            <nav className="grid-flow-col gap-4 pb-4 md:place-self-center md:justify-self-end mx-auto">
+                <a href='tel:2545552123' className=" ">
+                    <AiFillPhone className='text-[#ed2476] text-2xl' />
                 </a>
-                <a href='' className="p-2 ">
+                <a href='' className=" ">
                     <BsFacebook className="text-[#3b5998] text-2xl" />
                 </a>
-                <a href='' className='p-2'>
+                <a href='' className=''>
                     <PiInstagramLogoBold className="text-[#c13584] text-2xl" />
                 </a>
-                <a href='' className='p-2'>
+                <a href='' className=''>
                     <FaTwitter className='text-[#00acee] text-2xl' />
                 </a>
             </nav>

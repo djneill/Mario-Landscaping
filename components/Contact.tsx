@@ -1,23 +1,23 @@
 import React from 'react'
 import Image from 'next/image'
-import fb from '../public/fb.jpeg'
+import fb from '../public/fb2.jpeg'
 import { Inter } from 'next/font/google'
 
 const Contact = () => {
     return (
-        <div id='contact' className="flex flex-col md:flex-row lg:flex-row items-center justify-center">
-            <div className="w-1/3 p-4">
+        <div id='contact' className="grid grid-cols-1 md:grid-cols-2 items-center justify-center">
+            <div className="p-4">
                 <Image
                     src={fb}
                     alt="Your Image"
                     className="rounded-full w-40 h-40 mx-auto"
                 />
             </div>
-            <div className="w-1/2 p-4">
+            <div className="p-4 mx-auto">
                 <h2 className="text-2xl font-bold text-center text-shadow">Contact Us</h2>
-                <p className="text-base font-bold mx-auto text-white ">Call us today <a className='text-blue-600' href='tel:2545554321'>2545554321</a> or send a message below.</p>
-                <form className="mt-4">
-                    <div className="mb-4">
+                <p className="text-base font-bold mx-4 text-white">Call us today <a className='text-blue-600' href='tel:2545554321'>254-555-4321</a> or send a message below.</p>
+                <form className="mt-4" name="contact" method="POST" data-netlify="true">
+                    <div className="mb-4 mx-4">
                         <label className="block text-gray-600" htmlFor="email">Email:</label>
                         <input
                             className="border border-gray-300 rounded w-full p-2"
@@ -28,7 +28,7 @@ const Contact = () => {
                             required
                         />
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 mx-4">
                         <label className="block text-gray-600" htmlFor="subject">Subject:</label>
                         <input
                             className="border border-gray-300 rounded w-full p-2"
@@ -39,7 +39,7 @@ const Contact = () => {
                             required
                         />
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 mx-4">
                         <label className="block text-gray-600" htmlFor="message">Message:</label>
                         <textarea
                             className="border border-gray-300 rounded w-full p-2"
