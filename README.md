@@ -32,7 +32,7 @@
 
 Welcome to the repository for the Mario Landscaping website, a project developed for a freelance client. This README provides an overview of the technologies and tools used in the project.
 
-Take a look at it here 👉 https://mario-landscaping.vercel.app/
+Take a look at it here 👉 https://mario-landscaping.netlify.app/
 
 ## Project Description
 
@@ -52,7 +52,7 @@ The project was built using the following technologies and tools:
 
 - **GitHub**: Version control and code collaboration platform for managing the project's source code.
 
-- **Vercel**: Deployment platform for hosting the website.
+- **Netlify**: Deployment platform for hosting the website.
 
 - **Google Fonts**: Used for incorporating custom fonts in the project.
 
