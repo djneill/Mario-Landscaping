@@ -30,7 +30,7 @@ const Footer = () => {
                 </p>
             </aside>
             <nav className="grid-flow-col gap-4 pb-4 md:place-self-center md:justify-self-end mx-auto">
-                <a href='tel:2545552123' className=" ">
+                <a href='tel:2544216398' className=" ">
                     <AiFillPhone className='text-[#ed2476] text-2xl' />
                 </a>
                 <a href='' className=" ">

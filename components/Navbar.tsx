@@ -30,7 +30,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <div className="grid grid-cols-2 md:grid-cols-4 md:gap-2">
-                        <a href='tel:2545552123' className="p-2 ">
+                        <a href='tel:2544216398' className="p-2 ">
                             <AiFillPhone className='text-[#ed2476] md:lg:text-2xl' />
                         </a>
                         <a href='' className="p-2 ">
