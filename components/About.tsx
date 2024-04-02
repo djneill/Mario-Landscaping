@@ -5,7 +5,7 @@ import house from '../public/house.png'
 
 const About = () => {
     return (
-        <div id='about' className="flex flex-col md:flex-row items-center bg-neutral-200">
+        <div id='about' className="flex flex-col md:flex-row items-center bg-neutral-200 overflow-hidden">
             <div className="w-full md:w-1/2 transform -skew-x-12 overflow-hidden">
                 <Image src={house} alt="Your Image" className="w-full transform skew-x-12" />
             </div>
