@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Mario\'s Landscaping',
-  description: 'Mario\'s Landscaping is a family owned and operated business that has been proudly servicing the Troy, Temple, and Belton area since 2019.'
+  description: 'Mario\'s Landscaping is a family owned and operated business that has been proudly servicing the Troy, Temple, and Belton Texas area since 2019.'
 }
 
 export default function RootLayout({

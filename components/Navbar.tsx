@@ -7,7 +7,7 @@ import { AiFillPhone } from 'react-icons/ai'
 const Navbar = () => {
     return (
         <>
-            <div className="navbar bg-green-200 fixed z-[2]">
+            <div className="navbar bg-green-200 fixed z-[2] overflow-hidden">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <li><a href='#contact' className='hover:text-purple-700'>Contact</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden md:flex">
                     <div className="grid grid-cols-2 md:grid-cols-4 md:gap-2">
                         <a href='tel:2544216398' className="p-2 ">
                             <AiFillPhone className='text-[#ed2476] md:lg:text-2xl' />
