@@ -24,10 +24,14 @@ const Footer = () => {
                     alt="Your Image"
                     className="fill-current w-16 h-16 md:w-36 md:h-36"
                 />
-
-                <p>
-                    Copyright © <span id="displayYear">{currentYear}</span> - All right reserved
-                </p>
+                <div className="flex flex-col text-center">
+                    <p>
+                        Copyright © <span id="displayYear">{currentYear}</span> - All right reserved
+                    </p>
+                    <p>
+                        Proudly made by <a className="text-cyan-400" href="https://djsconsulting.services/" target="_blank">DJ&apos;s Consulting</a>
+                    </p>
+                </div>
             </aside>
             <nav className="grid-flow-col gap-4 pb-4 md:place-self-center md:justify-self-end mx-auto">
                 <a href='tel:2544216398' className=" ">
