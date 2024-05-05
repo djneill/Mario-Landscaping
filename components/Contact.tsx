@@ -55,6 +55,7 @@ const Contact = () => {
                         <button
                             className="bg-blue-500 text-white rounded p-2 mx-4 border-solid border-2 border-violet-600 shadow-xl"
                             type="submit"
+                            value={"submit"}
                         >
                             Submit
                         </button>
