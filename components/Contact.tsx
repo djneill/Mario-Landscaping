@@ -47,7 +47,7 @@ const Contact = () => {
                             id="message"
                             name="message"
                             placeholder='Message'
-                            rows={6}
+                            rows={5}
                             required
                         ></textarea>
                     </div>
