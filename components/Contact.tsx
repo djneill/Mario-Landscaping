@@ -17,7 +17,7 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold text-center text-shadow">Contact Us</h2>
                 <p className="text-base font-bold mx-4 text-white">Call us today <a className='text-blue-600' href='tel:2544216398'>254-421-6398</a> or send a message below.</p>
                 <form className="mt-4" name="contact" method="POST" data-netlify="true">
-                    <input type="hidden" name="contact" value="contact" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="mb-4 mx-4">
                         <label className="block text-gray-600" htmlFor="email">Email:</label>
                         <input
