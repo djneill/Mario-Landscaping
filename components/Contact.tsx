@@ -21,7 +21,7 @@ const Contact = () => {
             const res = await fetch('/__forms.html', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: URLSearchParams.toString()
+                body: new URLSearchParams(formData).toString()
             });
             if (res.status === 200) {
                 setStatus('ok');
